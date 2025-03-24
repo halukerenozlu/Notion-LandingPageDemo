@@ -1,5 +1,1 @@
-body {
-  background-color: green;
-}
-
-/*# sourceMappingURL=main.css.map */
+.container{max-width:1200px;margin:0 1.5rem;margin:auto}.btn-dark,.btn-primary{display:inline-block;margin:.6rem 1.3rem;transition:all .1s;border:none;cursor:pointer}.btn-primary{color:#fff;background-color:#0582ff}.btn-dark{color:#fff;background-color:#000}button[class^=btn-]:hover,a[class^=btn-]:hover,input[class^=btn-]:hover{background-color:#ebf5fe}.bg-primary{background-color:#fff}.bg-light{background-color:#eae6da}.py-1{margin:1rem 0}.py-2{margin:2rem 0}.py-3{margin:3rem 0}.py-4{margin:4rem 0}.my-1{margin:1rem 0}.my-2{margin:2rem 0}.my-3{margin:3rem 0}.my-4{margin:4rem 0}*{margin:0;padding:0;box-sizing:border-box}body{background-color:#fff;font-family:"golos-text",sans-serif;font-weight:500;font-style:normal;line-height:1.5}a{text-decoration:none;color:#000}img{width:100%}/*# sourceMappingURL=main.css.map */

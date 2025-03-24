@@ -1,0 +1,79 @@
+@use "variables";
+
+.container {
+  max-width: variables.$max-width;
+  margin: 0 1.5rem;
+  margin: auto;
+}
+
+//buttons
+%btn-shared {
+  display: inline-block;
+  margin: 0.6rem 1.3rem;
+  transition: all 0.1s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  &-primary {
+    @extend %btn-shared;
+    color: white;
+    background-color: variables.$button-color;
+  }
+  &-dark {
+    @extend %btn-shared;
+    color: white;
+    background-color: variables.$dark-color;
+  }
+}
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: variables.$button-hover-color;
+}
+
+//background
+.bg {
+  &-primary {
+    background-color: variables.$primary-color;
+  }
+  &-light {
+    background-color: variables.$light-color;
+  }
+}
+
+//margin
+
+.py {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+}
+
+//margin
+
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+}
