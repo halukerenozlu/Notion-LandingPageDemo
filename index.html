@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Notion - Demo</title>
     <link rel="stylesheet" href="https://use.typekit.net/obr7awq.css" />
     <link rel="stylesheet" href="public/css/main.css" />
   </head>
@@ -11,7 +11,7 @@
     <!-- Header-->
     <header id="header__home">
       <div class="container">
-        <nav class="main_nav">
+        <nav class="main-nav">
           <img src="public/img/notion_logo.png" alt="" class="main-nav__logo" />
           <ul class="main-nav__items">
             <li><a href="index.html" class="active">Home</a></li>
@@ -19,19 +19,18 @@
           </ul>
         </nav>
         <div class="header-content">
-          <h1>
-            Notion is your
-            <span
-              class="typewrite"
-              data-period="1000"
-              data-type='["AI","teamwork","database"]'
-            ></span>
-            app
-          </h1>
+          <h1 class="headline">Notion is your</h1>
+          <p class="tagline">AI, Teamwork and Database App</p>
         </div>
       </div>
     </header>
-    <script src="public/js/jquery.min.js"></script>
-    <script src="public/js/type-writer.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal({ duration: 1000 });
+    </script>
+    <script>
+      ScrollReveal().reveal(".headline");
+      ScrollReveal().reveal(".tagline", { delay: 500 });
+    </script>
   </body>
 </html>
