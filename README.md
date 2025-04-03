@@ -30,13 +30,17 @@ This is a simple, clean, and informative landing page project designed to showca
 ### 🏠 Home Page
 
 ![Home Page Screenshot](public/img/notion_home.png)
+
 ![Home Page Screenshot](public/img/notion_intro.png)
+
 ![Home Page Screenshot](public/img/notion_calendar.png)
+
 ![Home Page Screenshot](public/img/notion_footer.png)
 
 ### 📄 About Page
 
 ![About Page Screenshot](public/img/notion_about.png)
+
 ![About Page Screenshot](public/img/notion_about_footer.png)
 
 > ⚠️ _This project is currently not fully responsive. Mobile support will be added in upcoming updates._
