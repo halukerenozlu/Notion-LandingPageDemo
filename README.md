@@ -1,4 +1,4 @@
-# 🧠 Notion Land Page
+# 🧠 Notion Landing Page
 
 This is a simple, clean, and informative landing page project designed to showcase the features of **Notion**, a powerful all-in-one productivity tool.
 
@@ -21,9 +21,12 @@ This is a simple, clean, and informative landing page project designed to showca
 
 ## 🧩 How to Use
 
-1. Clone or download the repository.
-2. Compile the SCSS files to CSS (e.g., using `npm run scss` ).
-3. Open `index.html` or `about.html` in your browser.
+1. Make sure you have **Node.js** and **npm** installed on your machine.
+2. Clone or download the repository.
+3. `"scripts": { "scss": "sass --watch --style=compressed scss:public/css"
+}`
+4. Compile the SCSS files to CSS (e.g., using `npm run scss` ).
+5. Open `index.html` or `about.html` in your browser.
 
 ## 📸 Screenshots
 
